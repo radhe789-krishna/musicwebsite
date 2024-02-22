@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,400;1,400&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{   margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+nav{
+  font-family: 'ubuntu',sans-serif; 
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    color: whitesmoke;
+    list-style-type: none;
+    
+
+}
+nav ul li{
+    padding-left: 0px;
+    padding-right: 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0px 8px;
+    /* //left rightpadding to pjoto */
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'varela Round',sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    
+    
+    background-image: url(bg.jpg);
+    background-size: cover;
+    
+   
+    
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 140px;
+    background-color: black;
+    color: white;
+    position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 12px;
+}
+#myprogressbar{
+    width: 87vw;
+    cursor: pointer;
+}
+.songItem{
+ height: 50px;
+ width: 80%;
+ display: flex;
+ background-color: white;
+ color: black;
+ margin: 12px 0;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 34px;
+
+}
+.songItem img{
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 50px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+   position: absolute;
+   left: 10vw;
+   font-family: 'varela Round',sans-serif;
+
+}
+.songinfo img{
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
